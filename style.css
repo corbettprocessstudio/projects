@@ -109,6 +109,63 @@ p {
 
 
 
+/* ==============================
+   BRAND LOGO
+============================== */
+
+
+.brand-logo {
+
+  width:260px;
+
+  max-width:80%;
+
+  margin-bottom:35px;
+
+
+  filter:
+
+  drop-shadow(
+    0 12px 25px rgba(15,23,42,0.12)
+  );
+
+
+  animation:
+
+  fadeIn 0.8s ease;
+
+
+}
+
+
+
+/* subtle entrance */
+
+@keyframes fadeIn {
+
+  from {
+
+    opacity:0;
+
+    transform:
+    translateY(-15px);
+
+  }
+
+
+  to {
+
+    opacity:1;
+
+    transform:
+    translateY(0);
+
+  }
+
+}
+
+
+
 .tagline {
 
   font-size:22px;
